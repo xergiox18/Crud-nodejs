@@ -1,0 +1,7 @@
+CREATE DATABASE crud_node_js;
+
+CREATE TABLE USERS (id int PRIMARY KEY AUTO-INCREMENT, user varchar (50), rol varchar (50));
+
+INSERT INTO `users`(`id`, `user`, `rol`) VALUES ('1','admin','admin'), ('2','demo','data entry');
+
+
